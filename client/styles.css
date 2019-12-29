@@ -3,3 +3,22 @@
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
 
+
+svg {
+
+  background-size: cover;
+  background-image: url(https://media-s3-us-east-1.ceros.com/lockheed-martin/images/2019/09/27/9b047bfcc574c1a6fccd7370190491d7/ahead-of-the-curve-4k.jpg);
+    /* https://www.nasa.gov/sites/default/files/thumbnails/image/c101-1.jpg */
+}
+
+.bullet {
+  fill: coral;
+  border: crimson;
+}
+
+.asteroid {
+
+  fill: #8b1111;
+
+}
+

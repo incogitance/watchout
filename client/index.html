@@ -1,17 +1,62 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel='stylesheet' type='css' href='styles.css'>
-  </head>
-  <body>
-    <div class="scoreboard">
-      <!-- Modify the scoreboard when important events occur in your game! -->
-      <div class="highscore">High score: <span>0</span></div>
-      <div class="current">Current score: <span>0</span></div>
-      <div class="collisions">Collisions: <span>0</span></div>
-    </div>
-    <div class="board"><div class="mouse"></div></div>
-    <script src="lib/d3.js" charset="utf-8"></script>
-    <script src='watchout.js'></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <link rel='stylesheet' type='css' href='styles.css'>
+</head>
+
+<body>
+  <div class="scoreboard">
+    <!-- Modify the scoreboard when important events occur in your game! -->
+    <div class="highscore">High score: <span>0</span></div>
+    <div class="current">Current score: <span>0</span></div>
+    <div class="collisions">Collisions: <span>0</span></div>
+  </div>
+  <div class="board">
+    <div class="mouse"></div>
+  </div>
+  <script src="lib/d3.js" charset="utf-8"></script>
+  <!-- <script src = "d3-transform.js"></script> -->
+  <script src='watchout.js'></script>
+  <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+    <mi>d</mi>
+    <mo>=</mo>
+    <msqrt>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>x</mi>
+        <mi>p</mi>
+      </msub>
+      <mo>&#x2212;<!-- − --></mo>
+      <msub>
+        <mi>x</mi>
+        <mi>c</mi>
+      </msub>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mn>2</mn>
+      </msup>
+      <mo>+</mo>
+      <mo stretchy="false">(</mo>
+      <msub>
+        <mi>y</mi>
+        <mi>p</mi>
+      </msub>
+      <mo>&#x2212;<!-- − --></mo>
+      <msub>
+        <mi>y</mi>
+        <mi>c</mi>
+      </msub>
+      <msup>
+        <mo stretchy="false">)</mo>
+        <mn>2</mn>
+      </msup>
+    </msqrt>
+    <mspace width="thickmathspace" />
+    <mo>.</mo>
+  </math>
+</body>
+
 </html>
